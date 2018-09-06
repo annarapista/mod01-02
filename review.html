@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>FORM EXERCISE</title>
+</head>
+
+<body>
+
+	<fieldset>
+		<legend>Your details:</legend>
+		<label>Name: <input type="text" name="name"></label><br>
+		<label for="email">Email:</label>
+		<input type="email" name="email" id="email">
+	</fieldset>
+
+	<br>
+
+	 <fieldset>
+	 	<legend>Your Review:</legend>
+	 	<label>How did you hear about us?</label>
+	 		<select name="where-did-you-hear-about-us">
+	 			<option value="google">Google</option>
+	 			<option value="facebook">Facebook</option>
+	 			<option value="instagram">Instagram</option>
+	 		</select>
+
+	 	<br>
+	 	<br>
+
+	 	<label>Would you visit again?</label><br>
+	 		<input type="radio" name="would-you-visit-us-again" value="yes"> Yes
+	 		<input type="radio" name="would-you-visit-us-again" value="no"> No
+	 		<input type="radio" name="would-you-visit-us-again" value="maybe"> Maybe
+
+	 	<br>
+	 	<br>
+
+	 	<label>Comments:</label><br>
+	 		<textarea name="comments"></textarea>
+
+	 	<br>
+	 	<br>
+
+	 	<input type="checkbox" name="email-updates" value="email-update" checked>Sign me up for email updates</input>
+
+	 	<br>
+	 	<br>
+
+	 	<input type="submit" value="Submit Review"></input>
+
+	 </fieldset>
+
+</body>
+</html>

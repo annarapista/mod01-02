@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> F O R M S</title>
+</head>
+<body>
+	<form action="" method="">
+	<!-- Button -->
+		<button>Hello</button>
+		<!-- <button><img src="images/add.gif" alt="add">Add</button> -->
+
+		<br>
+
+	<!-- TEXT FIELD -->
+		<label for="username">Username:<input type="text" name="username" required="true" placeholder="firstname.lastname" id="username">
+		<!-- FOR ON THE LABEL AND IF ON THE FIELD NEED TO HAVE THE SAME NAME FOR THIS TO WORK -->
+
+		<br>
+
+	<!-- PASSWORD FIELD -->
+		<label>Password<input type="password" name="password">
+
+		<br>
+
+	<!-- RADIO BUTTON -->
+		<label>Meal: </label>
+		<input type="radio" name="meal" value="breakfast">
+		Breakfast
+		<input type="radio" name="meal" value="lunch" checked="">
+		Lunch
+		<input type="radio" name="meal" value="Dinner">
+		Dinner
+
+		<br> 
+		
+	<!-- CHECK BOX -->
+		<label>Utensils: </label>
+		<input type="checkbox" name="utensil" value="Spoon">
+		Spoon
+		<input type="checkbox" name="utensil" value="Fork">
+		Fork
+		<input type="checkbox" name="utensil" value="Knife">
+		Knife
+
+		<br>
+
+	<!-- EMAIL -->
+		<label for="email">Email: </label>
+		<input type="email" name="email" id="email">
+
+		<br>
+
+	<!-- AGE -->
+		<label for="age">Age:</label>
+		<input type="number" name="age" id="age" min=1>
+
+		<br>
+
+
+	<!-- DROP DOWN LIST -->
+		<select name="tvstation">
+			<option value="" selected>Select TV station </option>
+			<option value="abscbn">ABS-CBN</option>
+			<option value="gma">GMA</option>
+			<option value="TV5">TV5</option>
+		</select>
+
+		<br> 
+		
+	<!-- PROFILE PICTURE/UPLOAD A FILE -->
+		<input type="file" name="profile picture">
+
+		<br>
+
+	<!-- FIELDSET??? -->
+		<fieldset>
+			<legend>Contact details</legend>
+			<label>Email: <input type="text" name="email"></label><br>
+			<label>Mobile:<input type="text" name="mobile" pattern="\d{10.15}"></label><br>
+		</fieldset>
+
+	<!-- TEXT AREA -->
+		<textarea name="comments">Write your comments here!</textarea>
+
+		<br> 
+
+	<!-- SUBMIT -->
+		<input type="submit" value="Log In">
+
+		<br>
+
+
+		<!-- SELECTED IS FOR DROP DOWN; CHECKED IS FOR RADIO BUTTONS AND CHECK BOX -->
+		
+
+	</form>
+</body>
+</html>
